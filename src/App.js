@@ -6,7 +6,7 @@ class AppHeader extends Component {
   render() {
     return (
       <div id = 'greeting'>
-        Greeting
+        
       </div>
     );
   }
