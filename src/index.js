@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppHeader from './App';
+import {Note,AddButton,RemoveButton} from './App';
 import './index.css';
 
 ReactDOM.render(
-  <AppHeader />,
-  document.getElementById('header')
+  <Note />,
+  document.getElementById('note')
+);
+
+ReactDOM.render(
+  <div id = "button-holder"><AddButton /><RemoveButton /></div>,
+  document.getElementById('button-panel')
 );

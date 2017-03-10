@@ -1,4 +1,24 @@
-#greeting{
+#note-div {
+  height: 98%;
+  width: 98%;
+  background-color: yellow;
+  margin: 1%;
+}
+
+#add-button {
   position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: blue;
+  width: 50%;
+  color: white;
+}
+
+#remove-button {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: red;
+  width: 50%;
   color: white;
 }

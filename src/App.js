@@ -2,15 +2,32 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class AppHeader extends Component {
+class Note extends Component {
   render() {
     return (
-      <div id = 'greeting'>
-        
-      </div>
+      <div id = 'note-div'>Default Note</div>
     );
   }
 }
 
+class AddButton extends Component {
+  render() {
+    return (
+      <button id = "add-button">Add</button>
+    );
+  }
+}
 
-export default AppHeader;
+class RemoveButton extends Component {
+  render() {
+    return (
+      <button id = "remove-button">Remove</button>
+    );
+  }
+}
+
+module.exports = {
+  Note,
+  AddButton,
+  RemoveButton
+}
