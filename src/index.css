@@ -35,13 +35,16 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 #note {
   height: 25%;
   width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 
 #button-panel {

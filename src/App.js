@@ -3,9 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 class Note extends Component {
+  constructor(){
+    super();{
+      this.state = {display: true};
+    }
+  }
   render() {
     return (
-      <div id = 'note-div'>Default Note</div>
+      <div id = 'note-div'><p id="note-id">Default Note</p></div>
+      //console.log(this.state.display);
     );
   }
 }
